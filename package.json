@@ -1,0 +1,25 @@
+{
+  "name": "ai-healthcare-triage-prototype",
+  "version": "1.0.0",
+  "description": "Production-style prototype for an AI-powered healthcare triage web app.",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js",
+    "test": "node backend/tests/runTests.js"
+  },
+  "keywords": [
+    "healthcare",
+    "triage",
+    "gemini",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2"
+  }
+}
